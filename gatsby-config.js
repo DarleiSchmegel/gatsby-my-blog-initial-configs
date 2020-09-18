@@ -26,6 +26,7 @@ module.exports = {
         name: `assets`,
       },
     },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -82,3 +83,10 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+// {
+//   resolve: `gatsby-source-filesystem`,
+//   options: {
+//     path: `${__dirname}/content/patrocinadores`,
+//     name: `patrocinadores`,
+//   },
+// },
